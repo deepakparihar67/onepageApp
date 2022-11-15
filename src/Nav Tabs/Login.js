@@ -37,6 +37,20 @@ const Login=()=>{
                 </form>
             </div>
           </div>
+          <div>
+        <footer className="bg-white" style={{height:"200px"}}>
+          <br></br> <br></br> <br></br> 
+        <div className="row">
+          <div className="col-2"></div>
+          <div className="col-5" style={{fontSize:"20px"}} >
+            <p>&copy; 2017-2022 Company, Inc. Deepak Parihar &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+          </div>
+          <div className="col-4">
+            <p class="float-end"><button className="btn btn-info"><a className="text-dark" style={{fontSize:"20px"}} href="#">Back to top</a></button></p>
+          </div>
+        </div>
+      </footer>
+        </div>
           </>
     )
 }
